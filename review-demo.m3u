@@ -5,7 +5,7 @@ https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Demo Live",Apple HLS Example (fMP4)
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Open Movies",Big Buck Bunny (Blender Foundation, CC BY 3.0)
+#EXTINF:-1 tvg-id="" tvg-logo="https://ahmedkhaled2022.github.io/blendo-iptv/demo/bbb.jpg" group-title="Open Movies (Blender Foundation, CC BY 3.0)",Big Buck Bunny
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8#/movie/
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Open Movies",Tears of Steel (Blender Foundation, CC BY 3.0)
+#EXTINF:-1 tvg-id="" tvg-logo="https://ahmedkhaled2022.github.io/blendo-iptv/demo/tos.jpg" group-title="Open Movies (Blender Foundation, CC BY 3.0)",Tears of Steel
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8#/movie/
