@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blendo IPTV Player</title>
+<meta name="description" content="Blendo IPTV Player — مشغّل وسائط سريع لقوائمك الخاصة M3U وXtream على التلفزيون والموبايل. Fast media player for your own M3U & Xtream playlists on TV and phone.">
+<meta name="theme-color" content="#0e022d">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<style>
+  :root { --bg:#0e022d; --bg2:#1d0548; --fg:#f4f1ff; --muted:#b9aed8; --line:rgba(255,255,255,.12);
+          --violet:#7b2fff; --pink:#fc58b8; --glow:#f2465a; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; color:var(--fg); background:var(--bg);
+         background-image:radial-gradient(1100px 620px at 50% -10%, var(--bg2), transparent 70%),
+                          radial-gradient(520px 420px at 105% 40%, rgba(242,70,90,.18), transparent 70%);
+         font:16px/1.75 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Arabic",Tahoma,sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:40px 16px 56px; }
+  .hero { text-align:center; }
+  .hero img { width:min(520px, 100%); height:auto; }
+  .tag { font-size:20px; margin:10px 0 2px; }
+  .tag-en { color:var(--muted); margin:0; direction:ltr; }
+  .actions { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin:28px 0 8px; }
+  .btn { display:inline-block; padding:11px 22px; border-radius:999px; text-decoration:none; font-weight:600;
+         color:#fff; background:linear-gradient(90deg, var(--violet), var(--pink)); }
+  .btn.ghost { background:transparent; border:1px solid var(--line); color:var(--fg); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:14px; margin-top:36px; }
+  .card { background:rgba(255,255,255,.045); border:1px solid var(--line); border-radius:18px; padding:16px 18px; }
+  .card h2 { font-size:17px; margin:0 0 6px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .note { margin-top:30px; border:1px solid rgba(252,88,184,.35); background:rgba(252,88,184,.07);
+          border-radius:18px; padding:16px 18px; }
+  .note h2 { font-size:17px; margin:0 0 6px; }
+  .note p { margin:0 0 6px; }
+  [lang="en"] { direction:ltr; text-align:left; }
+  footer { text-align:center; color:var(--muted); font-size:14px; margin-top:40px; }
+  footer a { color:var(--fg); }
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <img src="assets/logo.webp" alt="Blendo IPTV" width="960" height="367">
+    <p class="tag">مشغّل وسائط سريع لقوائمك الخاصة على التلفزيون والموبايل</p>
+    <p class="tag-en" lang="en">A fast media player for your own playlists, on TV and phone.</p>
+    <div class="actions">
+      <a class="btn" href="privacy-policy.html">سياسة الخصوصية · Privacy Policy</a>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card"><h2>قوائمك أنت</h2><p>تشغيل قوائم M3U / M3U8 وحسابات Xtream Codes الخاصة بك.</p></div>
+    <div class="card"><h2>مصمّم للريموت</h2><p>واجهة كاملة للتحكم بالريموت على Android TV، وتعمل باللمس على الموبايل.</p></div>
+    <div class="card"><h2>تشغيل قوي</h2><p>محرّك تشغيل حديث حتى 4K، مع اختيار الصوت والترجمة وتحسين وضوح الصورة.</p></div>
+    <div class="card"><h2>للعائلة</h2><p>بروفايلات متعددة، وبروفايل أطفال محمي برمز PIN، والمفضّلة واستكمال المشاهدة.</p></div>
+  </section>
+
+  <section class="note">
+    <h2>تنبيه مهم</h2>
+    <p>Blendo مشغّل وسائط فقط، ولا يوفّر أو يستضيف أو يبيع أي قنوات أو أفلام أو مسلسلات أو اشتراكات. يضيف المستخدم قوائمه الخاصة التي يملك حق مشاهدتها.</p>
+    <p lang="en">Blendo is a media player only. It does not provide, host or sell any channels, movies, series or subscriptions. Users add their own playlists that they have the right to watch.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Blendo IPTV Player · <a href="privacy-policy.html">سياسة الخصوصية / Privacy Policy</a></p>
+  </footer>
+</main>
+</body>
+</html>
